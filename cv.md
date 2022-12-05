@@ -47,7 +47,6 @@ An outcome-driven Designer with 2+ years of experience in Human-centered Design,
 * Jira
 * Miro
 * Brackets
-* Webstorm
   
 ## Code Examples
 
