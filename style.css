@@ -159,6 +159,8 @@ img{
     margin-top: 64px;
     display: flex;
     flex-direction: row;
+    padding-bottom: 24px;
+    border-bottom: #EDEDED 2px solid;
 }
 
 .Experience_headline{
@@ -226,3 +228,40 @@ pre code {
     font-weight: 600;
     margin-bottom: 8px;
   }
+
+  /* Footer */
+
+  footer{
+    padding: 32px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer_links{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .github_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 48px;
+  }
+
+  .github_link{
+    font-weight: 800;
+  }
+
+
+.github_logo{
+    width: 48px;
+    height: 48px;
+}
+
+.rsschool_logo{
+    width: 180px;
+    height: 48px;
+    object-fit: fill;
+}
