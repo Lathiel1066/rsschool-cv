@@ -1,1 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap');
 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #1D1810;
+}
+
+body {
+    margin: auto;
+    font-family: 'Poppins';
+}
+
+h1{
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 56px;
+}
+
+h3{
+    font-size: 32px;
+    line-height: 56px;
+}
+
+/* Main CSS starts here */
+
+header{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15%;
+    height: 100px;
+    background-color: #F6EEE3;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 16px;
+    font-weight: 400;
+}
+
+/* Header Ends Here */
+
+.main_sec{
+    width: 100%;
+    height: 1000px;
+    background-color: #F6EEE3;
+    padding: 24px 15%;
+}
+
+/* First Section */
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.first_sec{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title{
+    margin-left: 20px;
+}
+
+.title_text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact_links{
+    list-style: none;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.contact_links li{
+    padding: 4px 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Second Section */
+
+.summary_sec{
+    margin-top: 100px;
+    font-size: 32px;
+    font-weight: 00;
+}
+
+/* Third Section */
+
+.skill_sec{
+    margin-top: 100px;
+}
+
+.skills_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill_list{
+    margin-top: 20px;
+}
+
+.skill_list li{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+/* Fourth Section */
+
+.new_sec{
+    padding: 24px 15%;
+    margin-bottom: 200px;
+}
+
+.headline_divider{
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: #EDEDED 2px solid;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+/* Experience */
+
+.Experience{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 24px;
+    border-bottom: #EDEDED 2px solid;
+}
+
+.Experience_headline{
+    width: 50%;
+    margin-right: 12%;
+}
+
+.Experience_list{
+    width: 60%;
+}
+
+.Experience_list li{
+    padding-bottom: 15px;
+}
+
+/* Education */
+
+.Education{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.Education p{
+    width: 25%;
+}
+
+.Education_link{
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+/* code example */
+
+pre code {
+    background-color: #15202B;
+    display: block;
+    border-radius: 20px;
+    color: White;
+    padding: 20px;
+  }
+
+  /* Languages */
+
+  .language_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+  }
+
+  .language{
+    width: 25%;
+  }
+
+  .rectangle{
+    width: 60px;
+    height: 12px;
+    margin-bottom: 8px;
+    background-color: #e09325;
+  }
+
+  .language_title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  /* Footer */
+
+  footer{
+    padding: 32px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer_links{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .github_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 48px;
+  }
+
+  .github_link{
+    font-weight: 800;
+  }
+
+
+.github_logo{
+    width: 48px;
+    height: 48px;
+}
+
+.rsschool_logo{
+    width: 180px;
+    height: 48px;
+    object-fit: fill;
+}
+
+span{
+    color:white;
+    font-size: 18px;
+}
