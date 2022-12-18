@@ -265,3 +265,8 @@ pre code {
     height: 48px;
     object-fit: fill;
 }
+
+span{
+    color:white;
+    font-size: 18px;
+}
