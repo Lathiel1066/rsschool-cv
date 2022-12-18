@@ -17,8 +17,8 @@ body {
 }
 
 h1{
-    font-size: 48px;
-    line-height: 72px;
+    font-size: 40px;
+    line-height: 64px;
     font-weight: 600;
 }
 
@@ -57,6 +57,7 @@ a{
 .nav_links li {
     display: inline-block;
     padding: 0px 16px;
+    font-weight: 400;
 }
 
 /* Header Ends Here */
@@ -110,7 +111,7 @@ img{
 .summary_sec{
     margin-top: 100px;
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 00;
 }
 
 /* Third Section */
@@ -132,7 +133,96 @@ img{
 .skill_list li{
     font-size: 20px;
     font-weight: 500;
-    padding: 15px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 600;
 }
 
 /* Fourth Section */
+
+.new_sec{
+    padding: 24px 15%;
+    margin-bottom: 200px;
+}
+
+.headline_divider{
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: #EDEDED 2px solid;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+/* Experience */
+
+.Experience{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Experience_headline{
+    width: 50%;
+    margin-right: 12%;
+}
+
+.Experience_list{
+    width: 60%;
+}
+
+.Experience_list li{
+    padding-bottom: 15px;
+}
+
+/* Education */
+
+.Education{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.Education p{
+    width: 25%;
+}
+
+.Education_link{
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+/* code example */
+
+pre code {
+    background-color: #15202B;
+    display: block;
+    border-radius: 20px;
+    color: White;
+    padding: 20px;
+  }
+
+  /* Languages */
+
+  .language_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+  }
+
+  .language{
+    width: 25%;
+  }
+
+  .rectangle{
+    width: 60px;
+    height: 12px;
+    margin-bottom: 8px;
+    background-color: #e09325;
+  }
+
+  .language_title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
